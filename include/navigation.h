@@ -6,8 +6,8 @@
 #include <padscore/kpad.h>
 #include <padscore/wpad.h>
 
-VPADStatus vpadBuffer[1];
-VPADReadError vpadError;
+extern VPADStatus vpadBuffer[1];
+extern VPADReadError vpadError;
 
 struct KPADWrapper {
     bool connected;
@@ -15,7 +15,7 @@ struct KPADWrapper {
     KPADStatus status;
 };
 
-std::array<KPADWrapper, 4> KPADControllers {false, WPAD_EXT_CORE, KPADStatus{}};
+extern std::array<KPADWrapper, 4> KPADControllers;
 
 
 // Technical functions

@@ -6,11 +6,11 @@ public:
     void Draw() override;
     ~ExampleTexture();
 private:
-    const float s_positionData[8] = {
-        -1.0f, -1.0f,
-        1.0f, -1.0f,
-        1.0f,  1.0f,
-        -1.0f,  1.0f,
+    const float s_positionData[12] = {
+        -1.0f, -1.0f, 0.0f,
+        1.0f, -1.0f, 0.0f,
+        1.0f,  1.0f, 0.0f,
+        -1.0f,  1.0f, 0.0f,
     };
 
     const float s_texCoords[8] = {
@@ -23,6 +23,7 @@ private:
     struct WHBGfxShaderGroup s_shaderGroup = {};
     struct GX2RBuffer s_positionBuffer = {};
     struct GX2RBuffer s_texCoordBuffer = {};
+    struct GX2RBuffer s_mvpMatrixBuffer[4] = {};
     struct GX2Texture * s_texture = nullptr;
     struct GX2Sampler s_sampler = {};
 

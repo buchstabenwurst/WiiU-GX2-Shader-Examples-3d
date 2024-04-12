@@ -5,6 +5,11 @@
 #include "example_texture.h"
 #include "example_tests.h"
 
+VPADStatus vpadBuffer[1];
+VPADReadError vpadError;
+
+std::array<KPADWrapper, 4> KPADControllers {false, WPAD_EXT_CORE, KPADStatus{}};
+
 int main() {
     WHBProcInit();
     WHBLogCafeInit();

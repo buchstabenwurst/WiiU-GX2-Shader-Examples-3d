@@ -7,7 +7,7 @@ These GX2 samples use the new [CafeGLSL shader compiler](https://github.com/Exza
 
 ## Current examples
  - [Triangle](./source/example_triangle.cpp) - Draws a triangle
- - [Textured Quad](./source/example_texture.cpp) - Draws a texture on a full-screen quad
+ - [Textured Quad](./source/example_texture.cpp) - Draws a texture on a rotating in 3D quad
 
 ## External examples
  - ~~[Tank Trap](https://github.com/Crementif/UntitledSandGame)~~(releasing soon!) - A game-jam game made that also uses CafeGLSL!
@@ -20,6 +20,7 @@ These GX2 samples use the new [CafeGLSL shader compiler](https://github.com/Exza
 ## Building
  - Install [devkitPRO](https://devkitpro.org/wiki/Getting_Started)
  - Install devkitPPC and wut through devkitPro's pacman by using `(dkp-)pacman -S wiiu-dev`
+ - Install ppc-glm through devkitPro's pacman by using `(dkp-)pacman -S ppc-glm`
  - Run `make` in the root of the project directory
  - To run these examples on Cemu or your Wii U, you need to manually install CafeGLSL. See the [CafeGLSL repository](https://github.com/Exzap/CafeGLSL?tab=readme-ov-file#usage) for more information.
 

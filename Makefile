@@ -13,8 +13,8 @@ TOPDIR ?= $(CURDIR)
 # APP_SHORTNAME sets the short name of the application
 # APP_AUTHOR sets the author of the application
 #-------------------------------------------------------------------------------
-APP_NAME		:=	Shader Compiler Examples
-APP_SHORTNAME	:=	Shader Compiler Examples
+APP_NAME		:=	Shader Compiler 3D Examples
+APP_SHORTNAME	:=	Shader Compiler 3D Examples
 APP_AUTHOR		:=	I made this :)
 
 include $(DEVKITPRO)/wut/share/wut_rules
@@ -30,7 +30,7 @@ include $(DEVKITPRO)/wut/share/wut_rules
 # TV_SPLASH is the image displayed during bootup on the TV, leave blank to use default rule
 # DRC_SPLASH is the image displayed during bootup on the DRC, leave blank to use default rule
 #-------------------------------------------------------------------------------
-TARGET		:=	shader_example
+TARGET		:=	shader_example_3d
 BUILD		:=	build
 SOURCES		:=	source
 ROMFS		:=	assets
