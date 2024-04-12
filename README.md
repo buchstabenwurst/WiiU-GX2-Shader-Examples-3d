@@ -5,6 +5,8 @@ The current examples show you the very basics of how to write a shader for the W
 
 These GX2 samples use the new [CafeGLSL shader compiler](https://github.com/Exzap/CafeGLSL) which finally allows Wii U homebrew developers to use their own shaders without having to use hand-assembled shaders.
 
+I used the glm code from [GaryOderNichts's hightmap demo](https://github.com/GaryOderNichts/gx2-heightmap)
+
 ## Current examples
  - [Triangle](./source/example_triangle.cpp) - Draws a triangle
  - [Textured Quad](./source/example_texture.cpp) - Draws a texture on a rotating in 3D quad
